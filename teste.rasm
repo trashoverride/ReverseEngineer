@@ -1,0 +1,13 @@
+
+; Hello World injection
+;
+; 
+;
+
+.arch x86
+.org 0x0000068e
+;jmp $ - 40
+nop
+nop
+nop
+nop
